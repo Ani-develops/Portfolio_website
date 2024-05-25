@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style>
+		body{
+  background-color: #42616d;
+  margin-top:100px !important;
+}
+.Yearly-timeline{ font-family: 'Poppins', sans-serif; }
+        .Yearly-timeline:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .Yearly-timeline .timeline{
+            width: calc(50% + 17px);
+            padding: 0 30px 30px 0;
+            float: left; 
+            position: relative;
+        }
+        .Yearly-timeline .timeline:before,
+        .Yearly-timeline .timeline:after{
+            content: '';
+            height: 60px;
+            width: 2px;
+            border-left: 2px solid #42616d;
+            transform: rotate(-45deg);
+            position: absolute;
+            right: 30px;
+            bottom: 0;
+        }
+
+		h4{
+			color: #42616d;
+		}
+		.Yearly-timeline .year{
+			color: rgb(135, 140, 144);
+			
+		}
+        .Yearly-timeline .timeline:after{
+            background-color: rgb(117 190 218 / 50%);
+            height: 20px;
+            width: 20px;
+            border: 6px solid #1f6e8d;
+            border-radius: 50%;
+            right: 0;
+        }   
+        .Yearly-timeline .timeline-content{
+            color: background-color: rgb(117 190 218 / 50%);;
+            background: #70d6ff;
+            text-align: center;
+            min-height: 170px;
+            padding: 30px 35px 35px;
+            border-radius: 15px 15px 0 15px;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+        .Yearly-timeline .timeline-content:before{
+            content: '';
+            background-color: #fff;
+            position: absolute;
+            left: 17px;
+            right: 17px;
+            top: 17px;
+            bottom: 17px;
+            z-index: -1;
+        }
+        .Yearly-timeline .timeline-content:hover{ text-decoration: none; }
+        .Yearly-timeline .timeline-icon{
+            color: #777;
+            font-size: 35px;
+        }
+        .Yearly-timeline .title{
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0 0 8px;
+        }
+        .Yearly-timeline .description{
+            color: #777;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            line-height: 18px;
+            margin: 0;
+        }
+        .Yearly-timeline .timeline:nth-child(even){
+            padding: 0 0 30px 30px;
+            float: right;
+        }
+        .Yearly-timeline .timeline:nth-child(even):before{
+            transform: rotate(45deg);
+            right: auto;
+            left: 30px;
+        }
+        .Yearly-timeline .timeline:nth-child(even):after{
+            right: auto;
+            left: 0;
+        }
+        .Yearly-timeline .timeline:nth-child(even) .timeline-content{ border-radius: 15px 15px 15px 0; }
+        .Yearly-timeline .timeline:nth-child(4n+2):before,
+        .Yearly-timeline .timeline:nth-child(4n+2):after{
+            border-color: #6d1839;
+        }
+        .Yearly-timeline .timeline:nth-child(4n+2) .timeline-content{
+            background: #750f36;
+        }
+        .Yearly-timeline .timeline:nth-child(4n+3):before,
+        .Yearly-timeline .timeline:nth-child(4n+3):after{
+            border-color: #7eb216;
+        }
+        .Yearly-timeline .timeline:nth-child(4n+3) .timeline-content{
+            background: #7eb216;
+        }
+        .Yearly-timeline .timeline:nth-child(4n+4):before,
+        .Yearly-timeline .timeline:nth-child(4n+4):after{
+            border-color: #ffd670;
+        }
+        .Yearly-timeline .timeline:nth-child(4n+4) .timeline-content{
+            background:#ffd670;
+        }
+        @media screen and (max-width:767px){
+            .Yearly-timeline .timeline{
+                width: 100%;
+                padding: 30px 0 0 30px;
+                margin: 0 0 20px;
+            }   
+            .Yearly-timeline .timeline:before,
+            .Yearly-timeline .timeline:nth-child(even):before{
+                transform: rotate(-45deg);
+                bottom: auto;
+                top: 0;
+                right: auto;
+                left: 30px;
+            }
+            .Yearly-timeline .timeline:after,
+            .Yearly-timeline .timeline:nth-child(even):after{
+                bottom: auto;
+                top: 0;
+                right: auto;
+                left: 0;
+            }
+            .Yearly-timeline .timeline-content,
+            .Yearly-timeline .timeline:nth-child(even) .timeline-content{
+                border-radius: 0 15px 15px 15px;
+            }
+        }
+	</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">EDUCATION</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">ABOUT</a></li>
+							<li class="active"><a href="generic.html">EDUCATION</a></li>
+							<li><a href="elements.html">SKILLS</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="Yearly-timeline">
+										<div class="timeline">
+											<a href="" class="timeline-content">
+												
+												<h5 class="year">2021-2025</h5>
+												<h5 class="title">Bachelors Of Technology</h5>
+												
+												<h4>INDIAN INSTITUTE OF ENGINEERING SCIENCE AND TECHNOLOGY,SHIBPUR</h3>
+													
+												<p class="description">
+													I am pursuing Bachelors of Technology in Mechanical Engineering.learnt about various programming languages- C++, Python and acquired skills like  HTML, CSS, ,Web scraping, RestAPIs,AI , MYSQL
+												</p>
+											</a>
+										</div>
+										<div class="timeline">
+											<a href="" class="timeline-content">
+												<h5 class="year">2018-2020</h5>
+												<h5 class="title">12th</h5>
+												
+												<h4>sinha model high school</h3>
+													
+												<p class="description">
+													Completed my 12th in PCM with subjects-English, Physics, Chemistry, Maths & physical education. I scored 76% in my 12th.
+												</p>
+												
+											</a>
+										</div>
+										<div class="timeline">
+											<a href="" class="timeline-content">
+												<h5 class="year">2008-2018</h5>
+												<h5 class="title">10th</h5>
+												
+												<h4>Ishan international girls school</h3>
+													
+												<p class="description">
+													Completed my 10th with subjects-English, Science, Social Studies, Hindi & Maths . I scored 93% in my 10th.</p>
+											</a>
+										</div>
+									   
+											
+							  
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Post 
+							<section class="post">
+								<header class="major">
+									<span class="date"></span>
+									<h1><br />
+									</h1>
+									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p>
+								</header>
+								<div class="image main"><img src="images/882270-new-texture-hd-wallpapers-2560x1600-for-htc.jpg" alt="" /></div>
+								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+							</section>
+-->
+					</div>
+
+				<!-- Footer --><h2></h2>
+					<footer id="footer">
+						
+						<section>
+							<form method="post" action="#">
+								<h2>CONTACT ME</h2>
+								<HR>
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<P></P>
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Patna,Bihar</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">g40.ankita@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="#">copyright@ankita</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
